@@ -28,6 +28,6 @@ gulp.task('mount',function(){
 
 
 gulp.task('default',['browser'],function(){
-	gulp.watch("./src/scss/*.scss",['sass','importSass','mount']);
+	gulp.watch("./src/scss/**/*.scss",['sass','mount']);
 	gulp.watch(['./src/*.html','./js/**.*'],['mount'])
 });

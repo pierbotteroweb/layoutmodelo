@@ -1,0 +1,5 @@
+@mixin paragrafo($x){
+    font-size: $x*2rem;
+    padding: 0 $x*20px;
+    margin:0
+}
